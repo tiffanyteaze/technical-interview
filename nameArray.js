@@ -18,8 +18,6 @@ const users = [
     }
 ];
 
-let userNames = users.map(userObject => {
-    return userObject.name;
-});
+let userNames = users.map(userObject => userObject.name);
 
 console.log(userNames);
